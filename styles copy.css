@@ -45,8 +45,7 @@ body{
 
 .container{
     background-color: white;
-    width: 634px;
-    height: 488px;
+    width: 527px;
     border-radius: 15px 15px 150px 15px;
 }
 
@@ -54,14 +53,14 @@ form{
     display: flex;
     flex-direction: row;
     margin: 31px;
-    margin-top: 6px;
+    margin-top: -14px;
 }
 
 .d{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin: 22px;
+    margin: 7px;
     margin-left: 10px;
     font-size: 12px;
     letter-spacing: 2px;
@@ -70,8 +69,8 @@ form{
 }
 
 input{
-    width: 93px;
-    height: 49px;
+    width: 80px;
+    height: 43px;
     margin-top: 5px;
     border-radius: 5px;
     border: 1px solid hsl(0, 0%, 86%);
@@ -85,7 +84,7 @@ input{
 }
 
 .textreq{
-    font-size: 9px;
+    font-size: 8px;
     letter-spacing: 0;
    font-style: italic;
     color: hsl(0, 100%, 67%);
@@ -99,108 +98,70 @@ input{
 button{
     margin-top: 7rem;
     margin-left: 52px;
-    width: 74px;
-    height: 74px;
+    width: 60px;
+    height: 60px;
     border-radius: 40px;
     background-color: hsl(259, 100%, 65%);
     border: none;
  }
 
- button:hover{
-    background-color: black;
- }
-
  img{
-    width: 39px;
+    width: 30px;
  }
  
  hr{
-    width: 80%;
+    width: 70%;
     margin: 0;
-    margin-top: -63px;
+    margin-top: -60px;
     padding-right: 9px;
     margin-left: 39px;
     border: 1px solid hsl(0, 0%, 86%);
  }
  
  .age{
-    margin-top: 34px;
-    font-size: 75px;
+    margin-top: 33px;
+    margin-bottom: 31px;
+    font-size: 60px;
     font-style: italic;
     color: black;
     letter-spacing: 0;
  }
 
  .ans{
-    margin-left: 44px;
-    margin-bottom: -33px;
+    margin-left: 60px;
+    margin-bottom: -17px;
     color: hsl(259, 100%, 65%);
     letter-spacing: 10px;
  }
 
  .answer{
     margin-left: 60px;
-    margin-bottom: -33px;
+    margin-bottom: -17px;
     color: hsl(259, 100%, 65%);
  }
 
  @media (max-width: 480px) {
     .container{
         width: 100%;
-        height: 100%;
-    }
-
-    form{
-        margin: 10px;
-        margin-top: 27px;
-    }
-
-    .d{
-        margin-top: -70px;
     }
 
     button{
-        margin-top: 123px;
-        margin-left: -240px;
-        width: 68px;
-        height: 68px;
-        
+        margin-top: 9rem;
+        margin-left: -193px;
     }
     .age{
         font-size: 50px;
-        margin-top: 39px;
-        margin-bottom: 56px;
+        margin-top: 37px;
+        margin-bottom: 53px;
     }
 
     hr{
-        width: 85%;
-        margin-top: -43px;
-        margin-left: 30px;
-    }
-
-    img{
-        width: 31px;
-    }
-
-    .ans, .answer{
-        margin-bottom: -22px;
+        width: 80%;
     }
  }
 
- @media (max-width: 420px) {
-    input{
-        width: 83px;
-    }
-
-    .d{
-        margin-left: 2px;
-    }
-
-    button{
-        margin-left: -213px;
-    }
-
-    .age{
+ @media (max-width: 410px) {
+    .ags{
         font-size: 45px;
     }
 
@@ -213,46 +174,19 @@ button{
  @media (max-width: 376px) {
     form{
         margin: 6px;
-        margin-top: 20px;
-        margin-left: 26px;
-    }
-
-    .d{
-        margin-left: -5px;
-    }
-
-    input{
-        width: 72px;
-    }
-
-    .textreq{
-        font-size: 8px;
+        margin-top: -8px;
     }
 
     hr{
         width: 85%;
-        margin-top: -43px;
+        margin-top: -36px;
         margin-left: 21px;
     }
 
     .age{
-        font-size: 50px;
+        font-size: 45px;
         margin-top: 47px;
-        margin-bottom: 68px;
-    }
-
-    button{
-        margin-top: 126px;
-        margin-left: -205px;
-    }
-
-    .ans{
-        margin-left: 21px;
-    }
-
-    .answer{
-        margin-left: 32px;
-        margin-bottom: -25px;
+        margin-bottom: 45px;
     }
 
     
