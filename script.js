@@ -51,7 +51,7 @@ function calculateAge() {
   } else if (day < 1 || day > 31 || day > new Date().getDate() && ( month > new Date().getMonth() && year === new Date().getFullYear()) ) {
     // day is less than 1 or day is greater than 31 or day is greater than the current day if the current year is selected
     document.getElementsByClassName("d")[0].className = "d dreq";
-    document.getElementsByClassName("textreq")[0].innerHTML = "Must be a valid day c";
+    document.getElementsByClassName("textreq")[0].innerHTML = "Must be a valid day";
     dash();
     return;
   } else if ((day == 29 || day == 30) && month == 2) {
@@ -63,7 +63,7 @@ function calculateAge() {
   } else if (day == 31 && (month == 2 || month == 4 || month == 6 || month == 9 || month == 11)) {
     // day is less than 1 or day is greater than 31 or day is greater than the current day if the current year is selected
     document.getElementsByClassName("d")[0].className = "d dreq";
-    document.getElementsByClassName("textreq")[0].innerHTML = "Must be a valid day f";
+    document.getElementsByClassName("textreq")[0].innerHTML = "Must be a valid day";
     dash();
     return;
   }else {
