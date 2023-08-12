@@ -29,6 +29,9 @@ The project was built using:
 ## Credits
 >Thanks to Frontend Mentor for providing the design for this challenge.
 
+## Additional Content
+You can see the style-guide [**here**](style-guide.md)
+
 ## Contributing
 >We welcome contributions to improve the Age Calculator App If you'd like to contribute, please follow the steps in the [**`Contributing.md`**](Contributing.md) file.
 
