@@ -25,7 +25,6 @@ The project was built using:
 - **CSS**
 - **Javascript**
 
-<img align="right"  width="300" src="design/desktop-completed.jpg"></a>
 ## Usage
 - Input your date of birth in the format DD/MM/YYYY
 - Click the "Calculate Age" button to get your age in years, months, and days
